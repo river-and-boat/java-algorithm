@@ -1,8 +1,6 @@
-package com.yuzhou.structure.link.doubles;
+package com.yuzhou.structure.link.single;
 
 class Node<T> {
-    Node<T> previous;
-
     Node<T> next;
 
     T data;
@@ -15,8 +13,7 @@ class Node<T> {
         this.data = data;
     }
 
-    Node(Node<T> previous, Node<T> next, T data) {
-        this.previous = previous;
+    Node(Node<T> next, T data) {
         this.next = next;
         this.data = data;
     }

@@ -97,8 +97,8 @@ public class LinkedList<T> {
     /**
      * 判断链表是否为环状链表
      */
-    public void isCycle() {
-
+    public Boolean isCycle() {
+        return false;
     }
 
 
