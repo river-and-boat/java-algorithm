@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a96031b-83b1-4a07-84d6-3bae8fb654f5" name="Changes" comment="[Yuzhou] add double linked list and single linked list">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/structure/tree/binary/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/structure/tree/binary/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yuzhou/structure/tree/binary/BinaryTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9a96031b-83b1-4a07-84d6-3bae8fb654f5" name="Changes" comment="[Yuzhou] Init BinaryTree and add previous foreach" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,7 +191,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701671304073</updated>
       <workItem from="1701671306452" duration="8031000" />
-      <workItem from="1701686810719" duration="11271000" />
+      <workItem from="1701686810719" duration="11316000" />
     </task>
     <task id="LOCAL-00001" summary="[Yuzhou] Init project">
       <created>1701685210695</created>
@@ -212,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701771838355</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[Yuzhou] Init BinaryTree and add previous foreach">
+      <created>1701775798837</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701775798837</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +234,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[Yuzhou] Init project" />
     <MESSAGE value="[Yuzhou] add double linked list and single linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Yuzhou] add double linked list and single linked list" />
+    <MESSAGE value="[Yuzhou] Init BinaryTree and add previous foreach" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Yuzhou] Init BinaryTree and add previous foreach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
