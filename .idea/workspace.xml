@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a96031b-83b1-4a07-84d6-3bae8fb654f5" name="Changes" comment="[Yuzhou] Init project">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/structure/link/single/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/structure/link/single/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yuzhou/structure/link/single/LinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="9a96031b-83b1-4a07-84d6-3bae8fb654f5" name="Changes" comment="[Yuzhou] add double linked list and single linked list">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/structure/tree/binary/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/structure/tree/binary/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yuzhou/structure/tree/binary/BinaryTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuzhou/structure/link/doubles/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/structure/link/doubles/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuzhou/structure/link/doubles/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/structure/link/doubles/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +56,35 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.yuzhou.structure.tree.binary" />
       <recent name="com.yuzhou.structure.link.single" />
       <recent name="com.yuzhou.structure.link.doubles" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LinkedListTest.should_reverse_link_list">
+  <component name="RunManager" selected="Gradle.BinaryTreeTest">
+    <configuration name="BinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.yuzhou.structure.tree.binary.BinaryTreeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="LinkedListTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -134,29 +154,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest.should_reverse_the_link_list" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.yuzhou.structure.link.doubles.LinkedListTest.should_reverse_the_link_list&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="LinkedListTest.should_throw_exception_if_index_out_of_bound_when_delete_item_by_index" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -182,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BinaryTreeTest" />
         <item itemvalue="Gradle.LinkedListTest.should_reverse_link_list" />
         <item itemvalue="Gradle.LinkedListTest (1)" />
         <item itemvalue="Gradle.LinkedListTest.should_throw_exception_if_index_out_of_bound_when_delete_item_by_index" />
         <item itemvalue="Gradle.LinkedListTest.should_add_items_successful" />
-        <item itemvalue="Gradle.LinkedListTest.should_reverse_the_link_list" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +196,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701671304073</updated>
       <workItem from="1701671306452" duration="8031000" />
-      <workItem from="1701686810719" duration="7686000" />
+      <workItem from="1701686810719" duration="11271000" />
     </task>
     <task id="LOCAL-00001" summary="[Yuzhou] Init project">
       <created>1701685210695</created>
@@ -208,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701685210695</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[Yuzhou] add double linked list and single linked list">
+      <created>1701771838355</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701771838355</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +231,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[Yuzhou] Init project" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Yuzhou] Init project" />
+    <MESSAGE value="[Yuzhou] add double linked list and single linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Yuzhou] add double linked list and single linked list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
