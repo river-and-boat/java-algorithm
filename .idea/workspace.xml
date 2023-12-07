@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a96031b-83b1-4a07-84d6-3bae8fb654f5" name="Changes" comment="[Yuzhou] Init BinaryTree and add previous foreach" />
+    <list default="true" id="9a96031b-83b1-4a07-84d6-3bae8fb654f5" name="Changes" comment="[Yuzhou] Init BinaryTree and add previous foreach">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuzhou/structure/tree/binary/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/structure/tree/binary/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yuzhou/structure/tree/binary/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yuzhou/structure/tree/binary/BinaryTreeTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,7 +195,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701671304073</updated>
       <workItem from="1701671306452" duration="8031000" />
-      <workItem from="1701686810719" duration="11316000" />
+      <workItem from="1701686810719" duration="13109000" />
     </task>
     <task id="LOCAL-00001" summary="[Yuzhou] Init project">
       <created>1701685210695</created>
@@ -214,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701775798837</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[Yuzhou] Init BinaryTree and add previous foreach">
+      <created>1701775829013</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701775829013</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -21,35 +21,69 @@ public class BinaryTree<T extends Comparable<T>> {
             return "";
         }
         StringBuilder sb = new StringBuilder();
-        sb.append(root.data);
-        sb.append(" ");
-
         doPrevious(root, sb);
 
         return sb.toString().trim();
     }
 
     private void doPrevious(TreeNode<T> node, StringBuilder sb) {
-        doPreviousLeft(node, sb);
-        doPreviousRight(node, sb);
-    }
-
-    private void doPreviousLeft(TreeNode<T> node, StringBuilder sb) {
-        node = node.leftChild;
-        if (node != null) {
-            sb.append(node.data);
-            sb.append(" ");
-            doPrevious(node, sb);
+        sb.append(node.data).append(" ");
+        if (node.leftChild != null) {
+            doPrevious(node.leftChild, sb);
+        }
+        if (node.rightChild != null) {
+            doPrevious(node.rightChild, sb);
         }
     }
 
-    private void doPreviousRight(TreeNode<T> node, StringBuilder sb) {
-        node = node.rightChild;
-        if (node != null) {
-            sb.append(node.data);
-            sb.append(" ");
-            doPrevious(node, sb);
+    /**
+     * 中序遍历
+     * left - root - right
+     *
+     * @return 中序遍历结果
+     */
+    public String middle() {
+        if (root == null) {
+            return "";
         }
+        StringBuilder sb = new StringBuilder();
+        doMiddle(root, sb);
+        return sb.toString().trim();
+    }
+
+    private void doMiddle(TreeNode<T> node, StringBuilder sb) {
+        if (node.leftChild != null) {
+            doMiddle(node.leftChild, sb);
+        }
+        sb.append(node.data).append(" ");
+        if (node.rightChild != null) {
+            doMiddle(node.rightChild, sb);
+        }
+    }
+
+    /**
+     * 后序遍历
+     * left - right - middle
+     *
+     * @return 后序遍历结果
+     */
+    public String after() {
+        if (root == null) {
+            return "";
+        }
+        StringBuilder sb = new StringBuilder();
+        doAfter(root, sb);
+        return sb.toString().trim();
+    }
+
+    private void doAfter(TreeNode<T> node, StringBuilder sb) {
+        if (node.leftChild != null) {
+            doAfter(node.leftChild, sb);
+        }
+        if (node.rightChild != null) {
+            doAfter(node.rightChild, sb);
+        }
+        sb.append(node.data).append(" ");
     }
 
     private TreeNode<T> insert(TreeNode<T> node, T value) {
