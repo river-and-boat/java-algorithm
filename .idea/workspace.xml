@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a96031b-83b1-4a07-84d6-3bae8fb654f5" name="Changes" comment="[Yuzhou] refactor and finish the BinaryTree's foreach way">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yuzhou/algorithm/sort/MergeSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yuzhou/algorithm/sort/QuickSortTest.java" afterDir="false" />
+    <list default="true" id="9a96031b-83b1-4a07-84d6-3bae8fb654f5" name="Changes" comment="[Yuzhou] add merge sort and quick sort algorithm">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/jvm/WeakReferenceMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yuzhou/algorithm/sort/BubbleSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/Sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,17 +55,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/Users/river-and-boat/Downloads/java-algorithm-practice/java-practice",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -75,54 +78,34 @@
       <recent name="com.yuzhou.structure.link.doubles" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.QuickSortTest">
-    <configuration name="BinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.yuzhou.structure.tree.binary.BinaryTreeTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="Gradle.BubbleSortTest.should_sort_aes">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuzhou.Main" />
+      <module name="java-algorithm-practice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuzhou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="LinkedListTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.yuzhou.structure.link.single.LinkedListTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="WeakReferenceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuzhou.jvm.WeakReferenceMain" />
+      <module name="java-algorithm-practice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuzhou.jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="LinkedListTest.should_reverse_link_list" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BubbleSortTest.should_sort_aes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -135,7 +118,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.yuzhou.structure.link.single.LinkedListTest.should_reverse_link_list&quot;" />
+            <option value="&quot;com.yuzhou.algorithm.sort.BubbleSortTest.should_sort_aes&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -193,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BubbleSortTest.should_sort_aes" />
+        <item itemvalue="Application.WeakReferenceMain" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.QuickSortTest" />
         <item itemvalue="Gradle.MergeSortTest" />
-        <item itemvalue="Gradle.BinaryTreeTest" />
-        <item itemvalue="Gradle.LinkedListTest.should_reverse_link_list" />
-        <item itemvalue="Gradle.LinkedListTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +193,8 @@
       <option name="presentableId" value="Default" />
       <updated>1701671304073</updated>
       <workItem from="1701671306452" duration="8031000" />
-      <workItem from="1701686810719" duration="19219000" />
+      <workItem from="1701686810719" duration="24828000" />
+      <workItem from="1702016266591" duration="2285000" />
     </task>
     <task id="LOCAL-00001" summary="[Yuzhou] Init project">
       <created>1701685210695</created>
@@ -247,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701941727278</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[Yuzhou] add merge sort and quick sort algorithm">
+      <created>1701947910121</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701947910121</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,9 +260,29 @@
     <MESSAGE value="[Yuzhou] add double linked list and single linked list" />
     <MESSAGE value="[Yuzhou] Init BinaryTree and add previous foreach" />
     <MESSAGE value="[Yuzhou] refactor and finish the BinaryTree's foreach way" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Yuzhou] refactor and finish the BinaryTree's foreach way" />
+    <MESSAGE value="[Yuzhou] add merge sort and quick sort algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Yuzhou] add merge sort and quick sort algorithm" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yuzhou/Main.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.7/Contents/Home/lib/src.zip!/java.base/java/lang/ThreadLocal.java</url>
+          <line>218</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Library/Java/JavaVirtualMachines/jbr-17.0.7/Contents/Home/lib/src.zip!/java.base/java/lang/ThreadLocal.java</url>
+          <line>386</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="com.yuzhou.structure.link.doubles.Node" memberName="next" />

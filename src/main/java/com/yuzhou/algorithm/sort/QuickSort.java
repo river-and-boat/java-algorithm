@@ -46,17 +46,4 @@ public class QuickSort<T extends Comparable<T>> implements Sort<T> {
     public String algorithmName() {
         return "quick-sort";
     }
-
-    /**
-     * @param value1 待比较参数1
-     * @param value2 待比较参数2
-     *
-     * @return 比较结果
-     * result > 0 : value1 > value2
-     * result = 0 : value1 = value2
-     * result < 0 : value1 < value2
-     */
-    private int compare(T value1, T value2) {
-        return value1.compareTo(value2);
-    }
 }
