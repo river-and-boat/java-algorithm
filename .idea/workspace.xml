@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a96031b-83b1-4a07-84d6-3bae8fb654f5" name="Changes" comment="[Yuzhou] add merge sort and quick sort algorithm">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/jvm/WeakReferenceMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yuzhou/algorithm/sort/BubbleSortTest.java" afterDir="false" />
+    <list default="true" id="9a96031b-83b1-4a07-84d6-3bae8fb654f5" name="Changes" comment="[Yuzhou] add bubble sort">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yuzhou/algorithm/sort/InsertSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/InsertSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +73,7 @@
       <recent name="com.yuzhou.structure.link.doubles" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BubbleSortTest.should_sort_aes">
+  <component name="RunManager" selected="Gradle.InsertSortTest.should_sort_aes">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yuzhou.Main" />
       <module name="java-algorithm-practice.main" />
@@ -128,7 +123,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MergeSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="InsertSortTest.should_sort_aes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -141,7 +136,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.yuzhou.algorithm.sort.MergeSortTest&quot;" />
+            <option value="&quot;com.yuzhou.algorithm.sort.InsertSortTest.should_sort_aes&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -176,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.InsertSortTest.should_sort_aes" />
         <item itemvalue="Gradle.BubbleSortTest.should_sort_aes" />
         <item itemvalue="Application.WeakReferenceMain" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.QuickSortTest" />
-        <item itemvalue="Gradle.MergeSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +189,7 @@
       <updated>1701671304073</updated>
       <workItem from="1701671306452" duration="8031000" />
       <workItem from="1701686810719" duration="24828000" />
-      <workItem from="1702016266591" duration="2285000" />
+      <workItem from="1702016266591" duration="4927000" />
     </task>
     <task id="LOCAL-00001" summary="[Yuzhou] Init project">
       <created>1701685210695</created>
@@ -238,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701947910121</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[Yuzhou] add bubble sort">
+      <created>1702018572207</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702018572207</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +263,8 @@
     <MESSAGE value="[Yuzhou] Init BinaryTree and add previous foreach" />
     <MESSAGE value="[Yuzhou] refactor and finish the BinaryTree's foreach way" />
     <MESSAGE value="[Yuzhou] add merge sort and quick sort algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Yuzhou] add merge sort and quick sort algorithm" />
+    <MESSAGE value="[Yuzhou] add bubble sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Yuzhou] add bubble sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
