@@ -19,6 +19,22 @@ class LinkedListTest {
     }
 
     @Test
+    public void should_get_given_item() {
+        LinkedList<Integer> linkedList = new LinkedList<>();
+
+        linkedList.add(1);
+        linkedList.add(2);
+        linkedList.add(3);
+        linkedList.add(4);
+        linkedList.add(5);
+
+        var actual = linkedList.get(4);
+
+        assertEquals(4, actual);
+        assertNull(linkedList.get(9));
+    }
+
+    @Test
     public void should_throw_exception_if_link_is_empty_when_deleting_item_by_value() {
         LinkedList<Integer> linkedList = new LinkedList<>();
 

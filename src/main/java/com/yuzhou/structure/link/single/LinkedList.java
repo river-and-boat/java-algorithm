@@ -17,6 +17,18 @@ public class LinkedList<T> {
         head.next = newNode;
     }
 
+    public T get(T data) {
+        var current = head.next;
+        while (current != tail) {
+            if (current.data != data) {
+                current = current.next;
+                continue;
+            }
+            return current.data;
+        }
+        return null;
+    }
+
     public void deleteByValue(T data) throws Exception {
         Node<T> previous = head;
         Node<T> current = head.next;
