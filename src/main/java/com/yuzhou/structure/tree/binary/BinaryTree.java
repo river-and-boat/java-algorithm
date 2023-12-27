@@ -17,9 +17,6 @@ public class BinaryTree<T extends Comparable<T>> {
      * @return 先序遍历结果
      */
     public String previous() {
-        if (root == null) {
-            return "";
-        }
         StringBuilder sb = new StringBuilder();
         doPrevious(root, sb);
 
@@ -27,13 +24,12 @@ public class BinaryTree<T extends Comparable<T>> {
     }
 
     private void doPrevious(TreeNode<T> node, StringBuilder sb) {
+        if (node == null) {
+            return;
+        }
         sb.append(node.data).append(" ");
-        if (node.leftChild != null) {
-            doPrevious(node.leftChild, sb);
-        }
-        if (node.rightChild != null) {
-            doPrevious(node.rightChild, sb);
-        }
+        doPrevious(node.leftChild, sb);
+        doPrevious(node.rightChild, sb);
     }
 
     /**
@@ -43,22 +39,18 @@ public class BinaryTree<T extends Comparable<T>> {
      * @return 中序遍历结果
      */
     public String middle() {
-        if (root == null) {
-            return "";
-        }
         StringBuilder sb = new StringBuilder();
         doMiddle(root, sb);
         return sb.toString().trim();
     }
 
     private void doMiddle(TreeNode<T> node, StringBuilder sb) {
-        if (node.leftChild != null) {
-            doMiddle(node.leftChild, sb);
+        if (node == null) {
+            return;
         }
+        doMiddle(node.leftChild, sb);
         sb.append(node.data).append(" ");
-        if (node.rightChild != null) {
-            doMiddle(node.rightChild, sb);
-        }
+        doMiddle(node.rightChild, sb);
     }
 
     /**
@@ -68,21 +60,17 @@ public class BinaryTree<T extends Comparable<T>> {
      * @return 后序遍历结果
      */
     public String after() {
-        if (root == null) {
-            return "";
-        }
         StringBuilder sb = new StringBuilder();
         doAfter(root, sb);
         return sb.toString().trim();
     }
 
     private void doAfter(TreeNode<T> node, StringBuilder sb) {
-        if (node.leftChild != null) {
-            doAfter(node.leftChild, sb);
+        if (node == null) {
+            return;
         }
-        if (node.rightChild != null) {
-            doAfter(node.rightChild, sb);
-        }
+        doAfter(node.leftChild, sb);
+        doAfter(node.rightChild, sb);
         sb.append(node.data).append(" ");
     }
 
