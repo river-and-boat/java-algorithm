@@ -77,7 +77,7 @@ public class MergeSort<T extends Comparable<T>> implements Sort<T> {
     }
 
     @Override
-    public String algorithmName() {
+    public String algorithm() {
         return "merge-sort";
     }
 }

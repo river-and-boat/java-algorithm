@@ -43,7 +43,7 @@ public class QuickSort<T extends Comparable<T>> implements Sort<T> {
     }
 
     @Override
-    public String algorithmName() {
+    public String algorithm() {
         return "quick-sort";
     }
 }

@@ -2,7 +2,7 @@ package com.yuzhou.algorithm.sort;
 
 public interface Sort<T extends Comparable<T>> {
     T[] sort(T[] source);
-    String algorithmName();
+    String algorithm();
 
     /**
      * @param value1 待比较参数1

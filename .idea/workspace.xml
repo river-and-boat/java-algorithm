@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a96031b-83b1-4a07-84d6-3bae8fb654f5" name="Changes" comment="[Yuzhou] refactor binary tree code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/jvm/executor/ScheduledExecutorMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yuzhou/algorithm/cache/LRUTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9a96031b-83b1-4a07-84d6-3bae8fb654f5" name="Changes" comment="[Yuzhou] add LRU algorithm">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/search/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/search/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yuzhou/algorithm/search/BinarySearchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/cache/LRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/cache/LRU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/sort/Sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,10 +76,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.BinarySearchTest.should_find_given_data.executor": "Run",
+    "Gradle.BinarySearchTest.should_throw_exception_if_item_not_exist.executor": "Debug",
     "Gradle.BinaryTreeTest.should_get_previous_foreach_result.executor": "Run",
     "Gradle.LRUTest.should_evi_last_item_if_size_is_reach_capacity.executor": "Run",
     "Gradle.LRUTest.should_lru_add_node.executor": "Run",
     "Gradle.LRUTest.should_lru_update_node.executor": "Run",
+    "Gradle.LRUTest.should_remove_item.executor": "Run",
     "Gradle.LRUTest.should_replace_value_if_key_is_the_same.executor": "Run",
     "Gradle.java-practice [:ScheduledExecutorMain.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -105,14 +111,62 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.yuzhou.algorithm.search" />
       <recent name="com.yuzhou.algorithm.cache" />
       <recent name="com.yuzhou.structure.hashmap" />
       <recent name="com.yuzhou.algorithm.sort" />
       <recent name="com.yuzhou.structure.tree.binary" />
-      <recent name="com.yuzhou.structure.link.single" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LRUTest.should_remove_item">
+  <component name="RunManager" selected="Gradle.BinarySearchTest.should_throw_exception_if_item_not_exist">
+    <configuration name="BinarySearchTest.should_find_given_data" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.yuzhou.algorithm.search.BinarySearchTest.should_find_given_data&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="BinarySearchTest.should_throw_exception_if_item_not_exist" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.yuzhou.algorithm.search.BinarySearchTest.should_throw_exception_if_item_not_exist&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="LRUTest.should_evi_last_item_if_size_is_reach_capacity" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -127,54 +181,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;com.yuzhou.algorithm.cache.LRUTest.should_evi_last_item_if_size_is_reach_capacity&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="LRUTest.should_lru_add_node" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.yuzhou.algorithm.cache.LRUTest.should_lru_add_node&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="LRUTest.should_lru_update_node" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.yuzhou.algorithm.cache.LRUTest.should_lru_update_node&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -234,19 +240,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.BinarySearchTest.should_find_given_data" />
+      <item itemvalue="Gradle.BinarySearchTest.should_throw_exception_if_item_not_exist" />
       <item itemvalue="Gradle.LRUTest.should_evi_last_item_if_size_is_reach_capacity" />
-      <item itemvalue="Gradle.LRUTest.should_lru_add_node" />
-      <item itemvalue="Gradle.LRUTest.should_lru_update_node" />
       <item itemvalue="Gradle.LRUTest.should_remove_item" />
       <item itemvalue="Gradle.LRUTest.should_replace_value_if_key_is_the_same" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BinarySearchTest.should_throw_exception_if_item_not_exist" />
+        <item itemvalue="Gradle.BinarySearchTest.should_find_given_data" />
         <item itemvalue="Gradle.LRUTest.should_remove_item" />
         <item itemvalue="Gradle.LRUTest.should_replace_value_if_key_is_the_same" />
         <item itemvalue="Gradle.LRUTest.should_evi_last_item_if_size_is_reach_capacity" />
-        <item itemvalue="Gradle.LRUTest.should_lru_update_node" />
-        <item itemvalue="Gradle.LRUTest.should_lru_add_node" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +279,7 @@
       <workItem from="1703685655375" duration="651000" />
       <workItem from="1703693112513" duration="509000" />
       <workItem from="1703693636345" duration="448000" />
-      <workItem from="1703695278539" duration="5350000" />
+      <workItem from="1703695278539" duration="7176000" />
     </task>
     <task id="LOCAL-00001" summary="[Yuzhou] Init project">
       <created>1701685210695</created>
@@ -345,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703690878918</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[Yuzhou] add LRU algorithm">
+      <option name="closed" value="true" />
+      <created>1704702970743</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704702970743</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,9 +386,19 @@
     <MESSAGE value="[Yuzhou] add insert sort" />
     <MESSAGE value="[Yuzhou] hash table structure" />
     <MESSAGE value="[Yuzhou] refactor binary tree code" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Yuzhou] refactor binary tree code" />
+    <MESSAGE value="[Yuzhou] add LRU algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Yuzhou] add LRU algorithm" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/search/BinarySearch.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="com.yuzhou.structure.link.doubles.Node" memberName="next" />
