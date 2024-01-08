@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a96031b-83b1-4a07-84d6-3bae8fb654f5" name="Changes" comment="[Yuzhou] hash table structure">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/cache/LRU.java" afterDir="false" />
+    <list default="true" id="9a96031b-83b1-4a07-84d6-3bae8fb654f5" name="Changes" comment="[Yuzhou] refactor binary tree code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/jvm/executor/ScheduledExecutorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yuzhou/algorithm/cache/LRUTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuzhou/structure/tree/binary/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/structure/tree/binary/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/cache/LRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/algorithm/cache/LRU.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,53 +46,74 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-21.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ScheduledExecutorService.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2Z4B7X7TxcOR5fyJEdDl9kcyNUv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/river-and-boat/Downloads/java-algorithm-practice/java-practice&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.BinaryTreeTest.should_get_previous_foreach_result.executor": "Run",
+    "Gradle.LRUTest.should_evi_last_item_if_size_is_reach_capacity.executor": "Run",
+    "Gradle.LRUTest.should_lru_add_node.executor": "Run",
+    "Gradle.LRUTest.should_lru_update_node.executor": "Run",
+    "Gradle.LRUTest.should_replace_value_if_key_is_the_same.executor": "Run",
+    "Gradle.java-practice [:ScheduledExecutorMain.main()].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/river-and-boat/Downloads/java-algorithm-practice/java-practice",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.yuzhou.algorithm.cache" />
       <recent name="com.yuzhou.structure.hashmap" />
       <recent name="com.yuzhou.algorithm.sort" />
       <recent name="com.yuzhou.structure.tree.binary" />
       <recent name="com.yuzhou.structure.link.single" />
-      <recent name="com.yuzhou.structure.link.doubles" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BinaryTreeTest.should_get_previous_foreach_result">
-    <configuration name="BinaryTreeTest.should_get_after_foreach_result" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.LRUTest.should_remove_item">
+    <configuration name="LRUTest.should_evi_last_item_if_size_is_reach_capacity" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -102,7 +126,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.yuzhou.structure.tree.binary.BinaryTreeTest.should_get_after_foreach_result&quot;" />
+            <option value="&quot;com.yuzhou.algorithm.cache.LRUTest.should_evi_last_item_if_size_is_reach_capacity&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -110,9 +134,10 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="BinaryTreeTest.should_get_middle_foreach_result" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LRUTest.should_lru_add_node" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -125,7 +150,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.yuzhou.structure.tree.binary.BinaryTreeTest.should_get_middle_foreach_result&quot;" />
+            <option value="&quot;com.yuzhou.algorithm.cache.LRUTest.should_lru_add_node&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -133,9 +158,10 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="BinaryTreeTest.should_get_previous_foreach_result" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LRUTest.should_lru_update_node" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -148,7 +174,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.yuzhou.structure.tree.binary.BinaryTreeTest.should_get_previous_foreach_result&quot;" />
+            <option value="&quot;com.yuzhou.algorithm.cache.LRUTest.should_lru_update_node&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -156,9 +182,10 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="HashTableTest.should_save_and_get_data_successful" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LRUTest.should_remove_item" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -171,7 +198,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.yuzhou.structure.hashtable.HashTableTest.should_save_and_get_data_successful&quot;" />
+            <option value="&quot;com.yuzhou.algorithm.cache.LRUTest.should_remove_item&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -179,9 +206,10 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest.should_get_given_item" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LRUTest.should_replace_value_if_key_is_the_same" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -194,7 +222,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.yuzhou.structure.link.single.LinkedListTest.should_get_given_item&quot;" />
+            <option value="&quot;com.yuzhou.algorithm.cache.LRUTest.should_replace_value_if_key_is_the_same&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -202,24 +230,32 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.BinaryTreeTest.should_get_after_foreach_result" />
-      <item itemvalue="Gradle.BinaryTreeTest.should_get_middle_foreach_result" />
-      <item itemvalue="Gradle.BinaryTreeTest.should_get_previous_foreach_result" />
-      <item itemvalue="Gradle.HashTableTest.should_save_and_get_data_successful" />
-      <item itemvalue="Gradle.LinkedListTest.should_get_given_item" />
+      <item itemvalue="Gradle.LRUTest.should_evi_last_item_if_size_is_reach_capacity" />
+      <item itemvalue="Gradle.LRUTest.should_lru_add_node" />
+      <item itemvalue="Gradle.LRUTest.should_lru_update_node" />
+      <item itemvalue="Gradle.LRUTest.should_remove_item" />
+      <item itemvalue="Gradle.LRUTest.should_replace_value_if_key_is_the_same" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.BinaryTreeTest.should_get_previous_foreach_result" />
-        <item itemvalue="Gradle.BinaryTreeTest.should_get_middle_foreach_result" />
-        <item itemvalue="Gradle.BinaryTreeTest.should_get_after_foreach_result" />
-        <item itemvalue="Gradle.HashTableTest.should_save_and_get_data_successful" />
-        <item itemvalue="Gradle.LinkedListTest.should_get_given_item" />
+        <item itemvalue="Gradle.LRUTest.should_remove_item" />
+        <item itemvalue="Gradle.LRUTest.should_replace_value_if_key_is_the_same" />
+        <item itemvalue="Gradle.LRUTest.should_evi_last_item_if_size_is_reach_capacity" />
+        <item itemvalue="Gradle.LRUTest.should_lru_update_node" />
+        <item itemvalue="Gradle.LRUTest.should_lru_add_node" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-2f79fb23" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -234,7 +270,10 @@
       <workItem from="1702016266591" duration="6604000" />
       <workItem from="1702262349226" duration="20178000" />
       <workItem from="1703573035260" duration="732000" />
-      <workItem from="1703685655375" duration="427000" />
+      <workItem from="1703685655375" duration="651000" />
+      <workItem from="1703693112513" duration="509000" />
+      <workItem from="1703693636345" duration="448000" />
+      <workItem from="1703695278539" duration="5350000" />
     </task>
     <task id="LOCAL-00001" summary="[Yuzhou] Init project">
       <created>1701685210695</created>
@@ -299,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703233529020</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[Yuzhou] refactor binary tree code">
+      <created>1703690878918</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703690878918</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +371,8 @@
     <MESSAGE value="[Yuzhou] add bubble sort" />
     <MESSAGE value="[Yuzhou] add insert sort" />
     <MESSAGE value="[Yuzhou] hash table structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Yuzhou] hash table structure" />
+    <MESSAGE value="[Yuzhou] refactor binary tree code" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Yuzhou] refactor binary tree code" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
