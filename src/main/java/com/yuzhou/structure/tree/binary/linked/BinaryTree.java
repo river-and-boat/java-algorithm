@@ -1,4 +1,4 @@
-package com.yuzhou.structure.tree.binary;
+package com.yuzhou.structure.tree.binary.linked;
 
 public class BinaryTree<T extends Comparable<T>> {
     private TreeNode<T> root = null;

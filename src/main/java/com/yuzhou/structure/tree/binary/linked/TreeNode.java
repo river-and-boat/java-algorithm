@@ -1,4 +1,4 @@
-package com.yuzhou.structure.tree.binary;
+package com.yuzhou.structure.tree.binary.linked;
 
 class TreeNode<T extends Comparable<T>> {
     T data;

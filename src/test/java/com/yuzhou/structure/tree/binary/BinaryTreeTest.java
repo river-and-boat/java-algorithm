@@ -1,5 +1,6 @@
 package com.yuzhou.structure.tree.binary;
 
+import com.yuzhou.structure.tree.binary.linked.BinaryTree;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
