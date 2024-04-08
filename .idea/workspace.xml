@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a96031b-83b1-4a07-84d6-3bae8fb654f5" name="Changes" comment="[Yuzhou] add segment tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/structure/tree/redblack/RBTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/structure/tree/redblack/RBTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yuzhou/structure/tree/redblack/RBTreeTest.java" afterDir="false" />
+    <list default="true" id="9a96031b-83b1-4a07-84d6-3bae8fb654f5" name="Changes" comment="[Yuzhou] rbtree [add node; find node]">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuzhou/structure/graph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yuzhou/structure/graph/GraphTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,12 +80,15 @@
     "Gradle.BinaryTreeTest.should_build_binary_tree_with_array.executor": "Run",
     "Gradle.BinaryTreeTest.should_get_previous_foreach_result.executor": "Run",
     "Gradle.BinaryTreeTest.should_return_given_data_or_null.executor": "Run",
+    "Gradle.GraphTest.should_get_possible_paths_in_graph_deeply.executor": "Run",
+    "Gradle.GraphTest.should_print_vertex_widely.executor": "Run",
     "Gradle.LRUTest.should_evi_last_item_if_size_is_reach_capacity.executor": "Run",
     "Gradle.LRUTest.should_lru_add_node.executor": "Run",
     "Gradle.LRUTest.should_lru_update_node.executor": "Run",
     "Gradle.LRUTest.should_remove_item.executor": "Run",
     "Gradle.LRUTest.should_replace_value_if_key_is_the_same.executor": "Run",
     "Gradle.RBTreeTest.should_add_node_in_rb_tree_successful.executor": "Debug",
+    "Gradle.RBTreeTest.should_find_given_value_in_rb_tree.executor": "Run",
     "Gradle.SegmentTreeTest.should_build_segment_tree_successful.executor": "Debug",
     "Gradle.SegmentTreeTest.should_return_max_value_in_segment_tree.executor": "Run",
     "Gradle.java-algorithm [:InvocationHandlerMain.main()].executor": "Debug",
@@ -119,26 +122,61 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.yuzhou.structure.graph" />
       <recent name="com.yuzhou.structure.tree.redblack" />
       <recent name="com.yuzhou.structure.tree.binary.segment" />
       <recent name="com.yuzhou.structure.tree.binary.array" />
       <recent name="com.yuzhou.structure.heap" />
-      <recent name="com.yuzhou.algorithm.search" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RBTreeTest.should_find_given_value_in_rb_tree">
-    <configuration name="InvocationHandlerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuzhou.proxy.InvocationHandlerMain" />
-      <module name="java-algorithm-practice.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuzhou.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Gradle.GraphTest.should_get_possible_paths_in_graph_deeply">
+    <configuration name="GraphTest.should_get_possible_paths_in_graph_deeply" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.yuzhou.structure.graph.GraphTest.should_get_possible_paths_in_graph_deeply&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="GraphTest.should_print_vertex_widely" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.yuzhou.structure.graph.GraphTest.should_print_vertex_widely&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration name="RBTreeTest.should_add_node_in_rb_tree_successful" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -188,30 +226,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SegmentTreeTest.should_build_segment_tree_successful" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.yuzhou.structure.tree.binary.segment.SegmentTreeTest.should_build_segment_tree_successful&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="SegmentTreeTest.should_return_max_value_in_segment_tree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -237,19 +251,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.InvocationHandlerMain" />
+      <item itemvalue="Gradle.GraphTest.should_get_possible_paths_in_graph_deeply" />
+      <item itemvalue="Gradle.GraphTest.should_print_vertex_widely" />
       <item itemvalue="Gradle.RBTreeTest.should_add_node_in_rb_tree_successful" />
       <item itemvalue="Gradle.RBTreeTest.should_find_given_value_in_rb_tree" />
-      <item itemvalue="Gradle.SegmentTreeTest.should_build_segment_tree_successful" />
       <item itemvalue="Gradle.SegmentTreeTest.should_return_max_value_in_segment_tree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GraphTest.should_get_possible_paths_in_graph_deeply" />
+        <item itemvalue="Gradle.GraphTest.should_print_vertex_widely" />
         <item itemvalue="Gradle.RBTreeTest.should_find_given_value_in_rb_tree" />
         <item itemvalue="Gradle.RBTreeTest.should_add_node_in_rb_tree_successful" />
         <item itemvalue="Gradle.SegmentTreeTest.should_return_max_value_in_segment_tree" />
-        <item itemvalue="Gradle.SegmentTreeTest.should_build_segment_tree_successful" />
-        <item itemvalue="Application.InvocationHandlerMain" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +305,7 @@
       <workItem from="1709814435202" duration="598000" />
       <workItem from="1711420996803" duration="12097000" />
       <workItem from="1711595141036" duration="619000" />
-      <workItem from="1711957630418" duration="12030000" />
+      <workItem from="1711957630418" duration="27861000" />
     </task>
     <task id="LOCAL-00001" summary="[Yuzhou] Init project">
       <created>1701685210695</created>
@@ -405,7 +419,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711443846443</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="[Yuzhou] rbtree [add node; find node]">
+      <option name="closed" value="true" />
+      <created>1712051510208</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1712051510208</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,7 +459,8 @@
     <MESSAGE value="[Yuzhou] add big top heap" />
     <MESSAGE value="[Yuzhou] add binary tree implemented by array" />
     <MESSAGE value="[Yuzhou] add segment tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Yuzhou] add segment tree" />
+    <MESSAGE value="[Yuzhou] rbtree [add node; find node]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Yuzhou] rbtree [add node; find node]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
