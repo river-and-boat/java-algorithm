@@ -2,7 +2,6 @@ package com.yuzhou.structure.graph;
 
 import java.util.*;
 import java.util.concurrent.LinkedBlockingDeque;
-import java.util.function.Predicate;
 
 /**
  * 无相图
